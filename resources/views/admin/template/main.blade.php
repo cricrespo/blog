@@ -16,9 +16,13 @@
     @include('admin.template.partials.nav')
     
     {{-- Incluimos mediante el yield, el contenido de welcome --}}
-    <section class="">
+    <section class="section">
         @yield('content')
-    </section>   
+    </section>  
+
+    <footer class="footer">
+        @include('admin.template.partials.footer')
+    </footer> 
 
 
 </html>

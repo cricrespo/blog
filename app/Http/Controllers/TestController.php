@@ -15,8 +15,8 @@ class TestController extends Controller{
             $article->user;
             $article->tags;
         // });
+        return view('test.articles', ['article' => $article]);
 
-        dd($article);
     }
 
 }

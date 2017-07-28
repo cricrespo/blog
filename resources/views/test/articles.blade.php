@@ -10,6 +10,9 @@
 
 </head>
 <body>
+
+    @include('admin.template.partials.nav')
+
         
     <h1>{{  $article ->title }}</h1>
     
@@ -29,6 +32,10 @@
                 <li>{{$tag->name}}</li>
             @endforeach
         </ul>
+
+    <footer class="footer">
+        @include('admin.template.partials.footer')
+    </footer>         
 
 </body>
 </html>

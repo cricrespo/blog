@@ -22,6 +22,7 @@ class AddTagsTable extends Migration
         }
 
         ##Articles & Tags = article & tag = article_tag
+        if(!Schema::hasTable('article_tag')){
         Schema::create('article_tag', function (Blueprint $table){
             $table->increments('id');
             $table->integer('article_id')->unsigned();
@@ -33,6 +34,7 @@ class AddTagsTable extends Migration
 
             $table->timestamps();
         });
+        } 
     }
 
     /**

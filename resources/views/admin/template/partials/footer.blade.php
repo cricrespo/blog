@@ -15,7 +15,7 @@
 <h3>Follow Us</h3>
     <hr />
         <div class="text-center center-block">
-            <p class="txt-railway">-Social</p>
+            <p class="txt-railway"></p>
             <br />
                 <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social"></i></a>
 	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social"></i></a>
